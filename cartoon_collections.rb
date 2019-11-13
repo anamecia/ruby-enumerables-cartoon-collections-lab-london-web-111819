@@ -10,12 +10,13 @@ end
 
 def long_planeteer_calls(planetter_calls)# code an argument here
   # Your code here
-  #planetter_calls.find do |call|
-  #if call.length > 4
-   # true
-  #else
-   # false
-  #end  
+  planetter_calls.find do |call|
+    if call.length > 4
+      true
+    else
+      false
+    end
+  end
 end
 
 def find_the_cheese(array_string)# code an argument here
